@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: url(nachhaltigkeit.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-oben{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(243, 245, 240, 0.74);
+    text-align: center;
+
+    box-shadow: 10px 2px 10px black;
+}
+.nav-oben li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 40px;
+    
+}
+
+.nav-oben li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-oben ul li .active{
+    background-color: rgba(23, 214, 48, 0.548);
+    margin: 0px;
+    padding: 5px;
+}
+
+.nav-oben :hover{
+    color: rgb(3, 68, 38);
+}
+
+.nav-unten{
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    box-shadow: 0px 2px 4px black;
+}
+.nav-unten li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 40px;
+
+    
+}
+
+.nav-unten li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-unten ul li .active{
+    background-color: rgba(9, 116, 18, 0.267);
+}
+.nav-unten :hover{
+    color: rgb(3, 68, 38);
+}
+
+.link-unten{
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    text-decoration: none;
+}
+.fa-brands{
+    font-size: 26px;
+}
+a:hover{
+    font-size: 20px;
+    color: rgb(3, 68, 38);
+}
